@@ -1,3 +1,9 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-<%= link_to "Sign in", new_user_session_path %>
+<%= render 'shared/navbar' %>
+
+<h1>Home</h1>
+<p>Find me in Alcala 22</p>
+
+<%= render 'shared/flashes' %>
+
+<%#= link_to "Sign in", new_user_session_path %>
+<%#= link_to "Log out", destroy_user_session_path, method: :delete %>
